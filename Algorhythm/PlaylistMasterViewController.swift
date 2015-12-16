@@ -24,7 +24,14 @@ class PlaylistMasterViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    prepareForSeg
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showPlaylistDetail" {
+            let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
+            
+            playlistDetailController.segueLabelText = "Yay, you pressed the button!"
+            
+        }
+    }
     
     
 }
