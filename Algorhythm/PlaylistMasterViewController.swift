@@ -24,9 +24,8 @@ class PlaylistMasterViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
-    @IBAction func buttonPressed(sender: UIButton) {
-        view.backgroundColor = UIColor.orangeColor()
-    }
+    prepareForSeg
+    
+    
 }
 
