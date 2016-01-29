@@ -13,6 +13,8 @@
 		2BBAA5B11C211288001C1DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBAA5B01C211288001C1DD2 /* Assets.xcassets */; };
 		2BBAA5B41C211288001C1DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBAA5B21C211288001C1DD2 /* LaunchScreen.storyboard */; };
 		2BBAA5BC1C21175B001C1DD2 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBAA5BB1C21175A001C1DD2 /* PlaylistDetailViewController.swift */; };
+		EC396A0A1C5B57F40083C288 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC396A091C5B57F40083C288 /* MusicLibrary.swift */; };
+		EC396A0C1C5B59080083C288 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC396A0B1C5B59080083C288 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2BBAA5B31C211288001C1DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BBAA5B51C211288001C1DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BBAA5BB1C21175A001C1DD2 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		EC396A091C5B57F40083C288 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		EC396A0B1C5B59080083C288 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2BBAA5A91C211288001C1DD2 /* AppDelegate.swift */,
+				EC396A0B1C5B59080083C288 /* Playlist.swift */,
+				EC396A091C5B57F40083C288 /* MusicLibrary.swift */,
 				2BBAA5AB1C211288001C1DD2 /* PlaylistMasterViewController.swift */,
 				2BBAA5BB1C21175A001C1DD2 /* PlaylistDetailViewController.swift */,
 				2BBAA5AD1C211288001C1DD2 /* Main.storyboard */,
@@ -141,6 +147,8 @@
 				2BBAA5BC1C21175B001C1DD2 /* PlaylistDetailViewController.swift in Sources */,
 				2BBAA5AC1C211288001C1DD2 /* PlaylistMasterViewController.swift in Sources */,
 				2BBAA5AA1C211288001C1DD2 /* AppDelegate.swift in Sources */,
+				EC396A0A1C5B57F40083C288 /* MusicLibrary.swift in Sources */,
+				EC396A0C1C5B59080083C288 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +298,7 @@
 				2BBAA5BA1C211288001C1DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
